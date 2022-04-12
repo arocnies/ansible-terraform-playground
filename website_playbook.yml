@@ -1,0 +1,5 @@
+- name: Install Apache Webserver
+  hosts: webservers
+  tasks:
+    - name: Ping the webservers
+      ping:

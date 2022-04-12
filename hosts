@@ -1,0 +1,4 @@
+container1  ansible_connection=docker
+
+[webservers]
+container2  ansible_connection=docker
