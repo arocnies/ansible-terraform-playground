@@ -1,0 +1,5 @@
+- name: My Ansible Playbook
+  hosts: all
+  tasks:
+    - name: Hello World
+      ansible.builtin.command: echo Hello World!
